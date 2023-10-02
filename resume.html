@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Personal Website</title>
+    <title>Chris Wong</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav class="navbar">
-      <h1 class="logo">
-        <a href="index.html">personal website</a>
-      </h1>
       <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <a href="contact.html">Contact</a>
+        <a href="resume.html">Resume</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="blog.html">Blog</a>
+        <a href="index.html">Home</a>
       </ul>
     </nav>
     <main>
       <div class="resume">
-        <h1 class="page_title">Resume</h1>
-        <a href="files/Resume, Christopher_Wong, 2023.pdf" download>
-          Download Resume
-        </a>
+        <div class="wrapper">
+          <h1 class="page_title">Resume</h1>
+        </div>
+        <div class="resume-down">
+          <a href="files/Resume, Christopher_Wong, 2023.pdf" download>
+            Download Resume
+          </a>
+        </div>
+
         <section class="section">
           <h2 class="section-title">Education</h2>
+
           <div class="entry">
             <h3 class="entry-title">Bachelor of Science in Computer Science</h3>
             <p class="entry-info">
@@ -75,52 +79,64 @@
             Archbishop Mitty High School - IT Support - volunteered position
           </h3>
           <p class="entry-info">
-            Hardware and Software first line technical support to students and faculties. 
-            Performed hardware fixes to broken devices such as screen repairs and other malfunction devices. 
-            Conducted software fixes, such as factory resets, app installation, data migration, and more.
+            Hardware and Software first line technical support to students and
+            faculties. Performed hardware fixes to broken devices such as screen
+            repairs and other malfunction devices. Conducted software fixes,
+            such as factory resets, app installation, data migration, and more.
           </p>
           <p class="entry-description">San Jose, CA - 2021-2022</p>
-        </div>
         </section>
 
         <section class="section">
           <h2 class="section-title">Projects</h2>
           <div class="entry">
             <h3 class="entry-title">Personal Website</h3>
-            <p class="entry-info">The project is the current page you are looking at! This was a project from Hack4Impact where I made a website detailing my professional experience.</p>
+            <p class="entry-info">
+              The project is the current page you are looking at! This was a
+              project from Hack4Impact where I made a website detailing my
+              professional experience.
+            </p>
             <p class="entry-description">2023-Present</p>
 
             <h3 class="entry-title">Bloons Tower Defense 6 AI</h3>
-            <p class="entry-info">This project is still in the works. I am using computer vision and language recognition to set up an enviornment so that an AI can play the game Bloons Tower Defense 6. </p>
+            <p class="entry-info">
+              This project is still in the works. I am using computer vision and
+              language recognition to set up an enviornment so that an AI can
+              play the game Bloons Tower Defense 6.
+            </p>
             <p class="entry-description">2023-Present</p>
           </div>
         </section>
 
         <section class="section">
           <h2 class="section-title">Skills</h2>
-          <ul class="skill-list">
-            <li>Computer Skills
+          <div class="skills">
+            <ul class="skill-list">
+              <li class="skill1">
+                Computer Skills
                 <ul>
-                    <li>Certified AWS Cloud Practitioner</li>
-                    <li>Linux Command Line</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Java</li>
-                    <li>C++</li>
-                    <li>Python</li>
-                    <li>SSH</li>
+                  <li>Certified AWS Cloud Practitioner</li>
+                  <li>Linux Command Line</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Java</li>
+                  <li>C++</li>
+                  <li>Python</li>
+                  <li>SSH</li>
                 </ul>
-            </li>
-            <li>Professional Skills
+              </li>
+              <li class="skill2">
+                Professional Skills
                 <ul>
-                    <li>Leadership</li>
-                    <li>Customer Support</li>
-                    <li>Database</li>
-                    <li>Web Designer</li>
-                    <li>Customer Service</li>
+                  <li>Leadership</li>
+                  <li>Customer Support</li>
+                  <li>Database</li>
+                  <li>Web Designer</li>
+                  <li>Customer Service</li>
                 </ul>
-            </li>  
-        </ul>
+              </li>
+            </ul>
+          </div>
         </section>
 
         <section class="section">
@@ -129,18 +145,19 @@
             <li>AP Computer Science A - 5</li>
             <li>Hack4Impact HTML, CSS, & Git Starter Pack</li>
             <li>Data Structures and Algorithms</li>
-            <li> Computer Programming I (C++ Programming) </li>
+            <li>Computer Programming I (C++ Programming)</li>
           </ul>
         </section>
-
 
         <section class="section">
           <h2 class="section-title">Awards</h2>
           <ul class="awards-list">
-            <li></li>
-            <li>Hack4Impact HTML, CSS, & Git Starter Pack</li>
-            <li>Data Structures and Algorithms</li>
-            <li> Computer Programming I (C++ Programming) </li>
+            <li>IBM Scholarship Award</li>
+            <li>
+              County Employees Management Association 1st Place High School
+              Award
+            </li>
+            <li>Principal Honors Roll Award</li>
           </ul>
         </section>
       </div>
