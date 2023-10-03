@@ -56,6 +56,7 @@ body {
   left: 0%;
   margin-bottom: 30px;
   position: fixed;
+  z-index: 1;
 }
 .nav-list a {
   float: right;
@@ -74,11 +75,9 @@ body {
   float: left;
 }
 .about {
-  background-image: linear-gradient(#e66465, #e05af1);
+  background-image: linear-gradient(#e66465, #560761);
 }
-.resume {
-  background-image: linear-gradient(#e66465, #e05af1);
-}
+
 .about-me {
   background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/38/mesh-1430108_960_720.png);
   background-attachment: fixed;
@@ -86,7 +85,9 @@ body {
   -webkit-background-clip: text;
   margin: 5px;
 }
-
+.all-resume {
+  background-image: linear-gradient(#e66465, #560761);
+}
 .about-image {
   float: left;
   margin: 5px;
@@ -102,7 +103,6 @@ body {
   font-size: 30px;
   color: #ffffff;
   background-clip: content-box;
-  box-shadow: inset 0 0 0 15px #190061;
 }
 
 .footer {
@@ -145,10 +145,8 @@ body {
   font-weight: bold;
 }
 .resume-down {
-  padding: 20px 20px;
   font-size: 20px;
   color: #ffffff;
-  text-align: center;
 }
 .learn,
 .resume-down a {
@@ -185,6 +183,30 @@ input {
   padding: 15px 20px;
   font-size: 10px;
 }
+.content a {
+  color: #ffffff;
+}
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 180px;
+  transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+  fill: #e66465;
+}
 
 /*
 
@@ -197,5 +219,7 @@ comp 4 - #282828
 comp 5 - #e66465
 comp 6 - #9198e5
 text - #ffffff
+
+used the free tool "https://www.shapedivider.app/" to get the waves
 
 */
